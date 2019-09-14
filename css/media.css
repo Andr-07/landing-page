@@ -1,0 +1,32 @@
+@media (max-width: 1199px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 778px) {
+    .visible-lg {
+        display: none;
+    }
+    .m-menu-link {
+        display: block;
+    }
+    .m-menu {
+        display: block;
+    }
+    .get-started {
+        margin: 0;
+    }
+   .price-tags {
+       flex-direction: column;
+   }
+   .price-tag {
+       height: 400px;
+   }
+   .footer-menu {
+       display: none;
+   }
+   .footer {
+       justify-content: center;
+   }
+}
